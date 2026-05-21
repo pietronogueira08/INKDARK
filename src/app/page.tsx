@@ -92,8 +92,8 @@ export default function HeroPage() {
   }, []);
 
   return (
-    // overflow-x-hidden prevents horizontal scroll from off-screen animations
-    <main className="overflow-x-hidden w-full">
+    // overflow-x-clip prevents horizontal scroll without breaking position: sticky
+    <main className="overflow-x-clip w-full">
       {/* ─── HERO SECTION ────────────────────────────────────────────────── */}
       <>
       {/* ── Loading overlay ───────────────────────────────────────────────── */}

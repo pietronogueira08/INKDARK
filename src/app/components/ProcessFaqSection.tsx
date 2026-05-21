@@ -420,7 +420,7 @@ export default function ProcessFaqSection() {
   return (
     <section
       id="process"
-      className="relative bg-zinc-950 py-16 md:py-36 overflow-hidden"
+      className="relative bg-zinc-950 py-16 md:py-36 overflow-clip"
       aria-label="Process & FAQ"
     >
       {/* ── Ambient background ────────────────────────────────────────────── */}

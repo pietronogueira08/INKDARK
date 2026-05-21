@@ -444,7 +444,7 @@ export default function CtaSection() {
     <section
       ref={sectionRef}
       id="consultation"
-      className="relative bg-black py-24 md:py-40 overflow-hidden"
+      className="relative bg-black py-24 md:py-40 overflow-clip"
       aria-label="Request a Consultation"
     >
       {/* ── Ambient background glows ─────────────────────────────────────── */}
